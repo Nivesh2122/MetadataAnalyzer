@@ -1,0 +1,21 @@
+1. Create a Virtual Environment
+Open a terminal (Command Prompt, PowerShell, or terminal in your IDE) and navigate to the directory where your script (main.py) is located. Then run:
+
+	python -m venv venv
+
+2. Activate the Virtual Environment
+Windows (Command Prompt):
+
+	venv\Scripts\activate
+
+After activation, your terminal prompt should show (venv) at the beginning.
+
+3. Install Required Dependencies
+The script requires several libraries. Install them using pip:
+
+	pip install PyQt6 pillow pypdf2 python-docx mutagen python-magic-bin stegano
+
+4. Run the Script
+Execute the script with Python:
+
+	python main.py
